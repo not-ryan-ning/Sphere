@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPHERE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navigationbar">
+      <div class="navigationbar__container">
+        <a href="#home" id="navigationbar__logo">SPHERE</a>
+        <div class="navigationbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <sklkpan class="bar"></span>
+        </div>
+        <ul class="navigationbar__menu">
+          <li class="navigationbar__item">
+            <a href="#home" class="navigationbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navigationbar__item">
+            <a href="#about" class="navigationbar__links" id="about-page">About</a>
+          </li>
+          </li>
+          <li class="navigationbar__btn">
+            <a href="#services" class="button" id="services-page">Get Help</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="super" id="home">
+      <div class="super__container">
+        <h1 class="super__heading">Education is <span>fundamental</span></h1>
+        <p class="super__description">Those who want to learn should be able to learn.</p>
+        <a href="#about" class="main__btn" id="about-page">Learn More</a>
+      </div>
+    </div>
+
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>Who are we?</h1>
+          <h2>We make education more accessible.</h2>
+          <p>We help by connecting volunteer tutors to underrepresented or underserved students who want to learn, but may not have the financial means to do so.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Are You a Student?</h2>
+          <p>Get Matched With Your Tutor Today!</p>
+          <div class="services__btn"><a href="student_form.html"><button>Sign Up</button></div></a>
+        </div>
+        <div class="services__card">
+          <h2>Looking to Give Back?</h2>
+          <p>Serve Our Community by Tutoring!</p>
+          <div class="services__btn"><a href="tutor_form.html"><button>Sign Up</button></a></div>
+        </div>
+        <div class="services__card">
+          <h2>Not Enough Tutors?</h2>
+          <p>Connect with Other Students with Similar Problems Using Co-Here!</p>
+          <a href = "sphere_cohere.html" div class = "services__btn"><button>Try it</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">SPHERE</a>
+          </div>
+          <p class="website__rights">© SPHERE 2023. All rights reserved.</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
