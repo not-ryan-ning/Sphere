@@ -1,7 +1,7 @@
 # Sphere
 **Technology has become a new form of social stratification.**
 
-Sphere is a full-stack social platform that aims to make technology and education more accessible to underrepresented users.
+Sphere is a social platform - a website that aims to make technology and education more accessible to underrepresented users.
 
 This is done by matching **volunteer tutors** to grassroots, or **underrepresented students** based on analysing their needs and similarities using Cohere's **natural language processing** API.
 
