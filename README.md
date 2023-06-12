@@ -10,7 +10,7 @@ On the Sphere platform, you can:
 3. Connect with other similar students in case of a lack of tutors. 
 
 ### Running the Program 
-Download the files and run the **`main.html`** in the frontend folder.
+Download the files and run the **`main.html`** in the front-end folder.
 
 ### Technical Documentation
 The **front-end** is constructed with **`HTML`**, **`CSS`**, and **`JavaScript`**.
